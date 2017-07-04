@@ -18,5 +18,5 @@ case
   else
     put 'よくわかりません'
   end
-
+# caseに引数がないなら、whenの一致した箇所で止まる
 
