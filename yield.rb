@@ -1,6 +1,6 @@
 def block_sample
   puts 'stand up'
-  yield
+  yield if block_given?
   puts 'sit down'
 end
 
